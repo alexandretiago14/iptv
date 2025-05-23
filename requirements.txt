@@ -1,0 +1,2 @@
+Flask==2.3.3
+python-requests==5.9.0
