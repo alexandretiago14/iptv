@@ -48,6 +48,7 @@ def process_m3u(m3u_content):
                 current_channel_info = None
         elif add_url and current_channel_info:
             customized_lines.append(line)
+            customized_lines.append('')  # Adiciona uma linha vazia após cada canal
             add_url = False
             current_channel_info = None
 
