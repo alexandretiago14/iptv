@@ -9,7 +9,7 @@ app = Flask(__name__, static_folder='static', static_url_path='')
 M3U_URL = "https://raw.githubusercontent.com/LITUATUI/M3UPT/refs/heads/main/M3U/M3UPT.m3u"
 OUTPUT_FILENAME = "m3upt_atualizado.m3u"
 OUTPUT_DIR = "static"
-UPDATE_INTERVAL_SECONDS = 4 * 60 * 60  # 4 horas em segundos
+UPDATE_INTERVAL_SECONDS = 3 * 60 * 60  # 3 horas em segundos
 DESIRED_TVG_IDS = [
     'RTP1.pt', 'RTP2.pt', 'SIC.pt', 'TVI.pt', 'SICNoticias.pt', 'CNNPortugal.pt',
     'ARTV.pt', 'SICAltaDefinicao.pt', 'PortoCanal.pt'
