@@ -95,7 +95,7 @@ if __name__ == '__main__':
     # Atualiza o ficheiro M3U na primeira execução
     update_m3u_file()
 
-    app.run(debug=True, host='0.0.0.0', port=5001) # Alteração da porta para 5001
+    app.run(debug=True, host='0.0.0.0', port=5000) # Alteração da porta para 5001
 
     stop_event.set()
     update_thread.join()
